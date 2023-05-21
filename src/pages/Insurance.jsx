@@ -105,7 +105,7 @@ function Insurance() {
                         <div className="portfolio-hover">
                         <div className="portfolio-hover-content"><i className="fas fa-file fa-3x" /></div>
                         </div>
-                        <img className="img-fluid" src="assets/img/cards/6.webp" alt="..." />
+                        <img className="img-fluid" src="assets/img/cards/7.webp" alt="..." />
                     </a>
                     
                     </div>
@@ -120,7 +120,7 @@ function Insurance() {
                         <div className="portfolio-hover">
                         <div className="portfolio-hover-content"><i className="fas fa-umbrella fa-3x" /></div>
                         </div>
-                        <img className="img-fluid" src="assets/img/cards/7.webp" alt="..." />
+                        <img className="img-fluid" src="assets/img/cards/6.webp" alt="..." />
                     </a>
                     
                     </div>
@@ -289,7 +289,7 @@ function Insurance() {
                             {/* Project details*/}
                             <h2 className="text-uppercase">Commercial and Business</h2>
                             <p className="item-intro text-muted">Protect your business and get proper insurance today.</p>
-                            <img className="img-fluid d-block mx-auto" src="assets/img/cards/6.webp" alt="..." />
+                            <img className="img-fluid d-block mx-auto" src="assets/img/cards/7.webp" alt="..." />
                             <p>It’s hard work running a business, and your to-do list is long. The last thing you want to worry about is protecting your company from losses associated with accidents, fraud, and disasters. Let Tree Top Insurance put together a Business Owner’s Policy or Commercial Solution package that meets your protection needs. We work with a variety of carriers for liability, property damage, and business interruption – let us take care of the details so you can focus on your customers, your employees, and your business.</p>
                             <div className="text-center text-padding-top-s"><NavLink to="/quote"><button className="btn btn-secondary btn-xl text-uppercase"  data-bs-dismiss="modal" type="button">Get a Quote!</button></NavLink></div>
                             <div className="text-padding-top-s">
@@ -316,7 +316,7 @@ function Insurance() {
                             {/* Project details*/}
                             <h2 className="text-uppercase">Umbrella Insurance</h2>
                             <p className="item-intro text-muted">Protect yourself and get umbrella insurance today.</p>
-                            <img className="img-fluid d-block mx-auto" src="assets/img/cards/7.webp" alt="..." />
+                            <img className="img-fluid d-block mx-auto" src="assets/img/cards/6.webp" alt="..." />
                             <p>Aren’t you covered by the insurance you already pay for?  Why do I need even more? An Umbrella policy extends the coverage limits that your current policies offer for things like injuries, accidents and damages.  It also covers claims that may not be covered under your other policies, such as false arrest, imprisonment or slander. Let Tree Top Advisors build an insurance package the provides the right levels of coverage for your specific needs.</p>
                             <div className="text-center text-padding-top-s"><NavLink to="/quote"><button className="btn btn-secondary btn-xl text-uppercase"  data-bs-dismiss="modal" type="button">Get a Quote!</button></NavLink></div>
                             <div className="text-padding-top-s">
