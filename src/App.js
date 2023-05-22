@@ -20,8 +20,8 @@ function App() {
     return (
         <Router>
             <div>
-                <Nav />
                 <Header />
+                <Nav />
             </div>
             <Routes>
                 <Route path="/" element={<Home/>} />

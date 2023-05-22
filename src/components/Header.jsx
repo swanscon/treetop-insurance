@@ -2,7 +2,7 @@ import React from 'react'
 
 function Header() {
     return (
-        <header className="masthead">
+        <header className="masthead" id="mainHeader">
         <div className="container">
             {/* <div className="masthead-heading text-uppercase">It's Nice To Meet You</div> */}
             <img className="img-fluid" src="assets/img//logos/treetop.png" alt="..." />

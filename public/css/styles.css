@@ -608,6 +608,12 @@ progress {
   height: auto;
 }
 
+.img-nav {
+  max-width: 30%;
+  height: auto;
+  border: none !important; 
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -3752,11 +3758,14 @@ textarea.form-control-lg {
   --bs-navbar-toggler-border-radius: 0.375rem;
   --bs-navbar-toggler-focus-width: 0.25rem;
   --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
-  position: relative;
+  position: fixed;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  width: 100%;
+  /* justify-content: space-around; */
+  /* margin-left: auto;
+  margin-right: auto; */
   padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
 }
 .navbar > .container,
@@ -8000,12 +8009,26 @@ textarea.form-control-lg {
   text-align: center !important;
 }
 
+.text-image {
+  background-image: url('../assets/img/photos/1.jpg');
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white !important;
+  text-shadow: 2px 2px 5px #000 !important;
+}
+
 .text-padding-top {
   padding-top: 5rem !important;
 }
 
 .text-padding-top-s {
   padding-top: 2.5rem !important;
+}
+
+.text-padding-top-l {
+  padding-top: 10rem !important;
 }
 
 .text-padding-bottom {
@@ -10909,9 +10932,10 @@ p {
 }
 
 #mainNav {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
   background-color: var(--bs-gray-300);
+  z-index:1000
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -10935,6 +10959,7 @@ p {
   font-size: 0.95rem;
   color: black;
   letter-spacing: 0.0625em;
+  font-weight: bold;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #198754;
@@ -10960,6 +10985,12 @@ p {
     padding-top: 1rem;
     padding-bottom: 1rem;
     background-color: var(--bs-gray-200);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    transition: 100ms;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -10976,8 +11007,8 @@ p {
   }
 }
 header.masthead {
-  padding-top: 9rem;
-  padding-bottom: 3rem;
+  /* padding-top: 9rem;
+  padding-bottom: 3rem; */
   text-align: center;
   color: #212529;
   background-color: white;
@@ -10985,6 +11016,8 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  opacity: 0;
+  max-height: 0px;
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
@@ -11003,8 +11036,15 @@ header.masthead .masthead-heading {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 5rem;
+    padding-top: 1rem;
     padding-bottom: 1rem;
+    max-height: 100%;
+    opacity: 1;
+  }
+  header.header-shrink {
+    height: 150px;
+    opacity: 0;
+    /* transition: 100ms; */
   }
   header.masthead .masthead-subheading {
     font-size: 2.25rem;

@@ -52,3 +52,31 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+window.addEventListener('DOMContentLoaded', event => {
+
+    // Header shrink function
+    var headerShrink = function () {
+        const headerCollapsible = document.body.querySelector('#mainHeader');
+        if (!headerCollapsible) {
+            return;
+        }
+        if (window.scrollY === 0) {
+            headerCollapsible.classList.remove('header-shrink')
+        } else {
+            headerCollapsible.classList.add('header-shrink')
+        }
+    };
+    // Shrink the header 
+    headerShrink();
+    // Shrink the header when page is scrolled
+    document.addEventListener('scroll', headerShrink);
+    //  Activate Bootstrap scrollspy on the main nav element
+    const mainHeader = document.body.querySelector('#mainHeader');
+    if (mainHeader) {
+        new bootstrap.ScrollSpy(document.body, {
+            target: '#mainHeader',
+            rootMargin: '0px 0px -40%',
+        });
+    };
+});
