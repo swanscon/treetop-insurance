@@ -10,7 +10,7 @@ function Home() {
     return (
         <section className="page-section" id="home">
             <div className="container text-padding-top-s">
-                <div className="text-image text-padding-top-l">
+                <div className="text-image-1 text-padding-top-l">
                 <div className="text-center">
                     <h2 className="section-heading text-uppercase">A FULL SERVICE INSURANCE PROVIDER</h2>
                     <h3 className="section-subheading text-width-m">As a full service Insurance Provider, Tree Top Insurance provides the insurance products you need. From standard home, health and auto insurance to business, health and long term care insurance, we offer a range of solutions for you at any stage of life. </h3>

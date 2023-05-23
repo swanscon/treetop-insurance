@@ -10,12 +10,14 @@ function Insurance() {
     return (
         <div>
             <section className="page-section bg-light" id="portfolio">
-            <div className="container">
+            <div className="container text-padding-top-s">
+                <div className="text-image-4 text-padding-top-l">
                 <div className="text-center">
-                <h2 className="section-heading text-uppercase">Insurance Solutions</h2>
-                <h3 className="section-subheading text-muted">We offer a full range of insurance products, designed to help you and your family meet your goals. From life insurance to health insurance, auto and property and everything in between, we can build a customized insurance solution meant just for you!</h3>
+                    <h2 className="section-heading text-uppercase">Helping People for Over 40 Years</h2>
+                    <h3 className="section-subheading text-width-m">We have been providing insurance to individuals, families, and businesses for decades.  We are pleased to be an independent agency, which partners with over a variety of insurance companies.  This has allowed us to shop for our clients and find the best, most affordable policy for them.  It's an easy experience for people and businesses since we do the work in getting a multitude of quotes!</h3>
                 </div>
-                <div className="text-center">
+                </div>
+                <div className="text-center text-padding-top">
                 <h3 className="section-heading text-uppercase">Our Process</h3>
                 <h3 className="section-subheading text-muted">While most people contact us with a specific insurance need, we take the time to discuss your goals and find out more about you and your family. We want to make sure you get what you really need! Then we research the best products available and build out options for you to consider. When you are a client of Tree Top Insurance, you can rest assured that we are always here for you. Our “White Glove” service means that we pick up the phone when you call. We’ll help you navigate through any issue – no matter how small or big -we are here for you. It’s all part of our vision “to help you protect what you’ve grown”.</h3>
                 </div>

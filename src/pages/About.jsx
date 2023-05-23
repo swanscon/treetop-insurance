@@ -9,12 +9,14 @@ function About() {
       }, []);
     return (
         <section className="page-section" id="about">
-            <div className="container">
+            <div className="container text-padding-top-s">
+                <div className="text-image-2 text-padding-top-l">
                 <div className="text-center">
-                <h2 className="section-heading text-uppercase">Helping People for Over 40 Years</h2>
-                <h3 className="section-subheading text-muted text-width-m">We have been providing insurance to individuals, families, and businesses for decades.  We are pleased to be an independent agency, which partners with over a variety of insurance companies.  This has allowed us to shop for our clients and find the best, most affordable policy for them.  It's an easy experience for people and businesses since we do the work in getting a multitude of quotes!</h3>
+                    <h2 className="section-heading text-uppercase">Helping People for Over 40 Years</h2>
+                    <h3 className="section-subheading text-width-m">We have been providing insurance to individuals, families, and businesses for decades.  We are pleased to be an independent agency, which partners with over a variety of insurance companies.  This has allowed us to shop for our clients and find the best, most affordable policy for them.  It's an easy experience for people and businesses since we do the work in getting a multitude of quotes!</h3>
                 </div>
-                <ul className="timeline">
+                </div>
+                <ul className="timeline text-padding-top-l">
                 <li>
                     <div className="timeline-image"><img className="rounded-circle img-fluid" src="assets/img/thumbnails/1.jpg" alt="..." /></div>
                     <div className="timeline-panel">

@@ -9,11 +9,17 @@ function Quote() {
     return (
         <div>
             <section className="page-section" id="contact">
-                <div className="container">
-                    <div className="text-center">
+                <div className="container text-padding-top-s">
+                    {/* <div className="text-center">
                     <h2 className="section-heading text-uppercase">Request a Quote</h2>
                     <h3 className="section-subheading text-muted">We can provide you a quote through whichever means you prefer. You can give us a call, send an email, visit our office, or use the form below.</h3>
-                    </div>
+                    </div> */}
+                <div className="text-image-3 text-padding-top-l">
+                <div className="text-center">
+                    <h2 className="section-heading text-uppercase">Request a Quote</h2>
+                    <h3 className="section-subheading text-width-m">We can provide you a quote through whichever means you prefer. You can give us a call, send an email, visit our office, or use the form below.</h3>
+                </div>
+                </div>
                     {/* * * * * * * * * * * * * * * **/}
                     {/* * * SB Forms Contact Form * **/}
                     {/* * * * * * * * * * * * * * * **/}
@@ -21,7 +27,7 @@ function Quote() {
                     {/* To make this form functional, sign up at*/}
                     {/* https://startbootstrap.com/solution/contact-forms*/}
                     {/* to get an API token!*/}
-                    <form id="contactForm">
+                    <form className="text-padding-top" id="contactForm">
                     <div className="row align-items-stretch mb-5">
                         <div className="col-md-6">
                         <div className="form-group">

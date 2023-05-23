@@ -8009,8 +8009,48 @@ textarea.form-control-lg {
   text-align: center !important;
 }
 
-.text-image {
+.text-image-1 {
   background-image: url('../assets/img/photos/1.jpg');
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white !important;
+  text-shadow: 2px 2px 5px #000 !important;
+}
+
+.text-image-2 {
+  background-image: url('../assets/img/photos/10.jpg');
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white !important;
+  text-shadow: 2px 2px 5px #000 !important;
+}
+
+.text-image-3 {
+  background-image: url('../assets/img/photos/12.jpg');
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white !important;
+  text-shadow: 2px 2px 5px #000 !important;
+}
+
+.text-image-4 {
+  background-image: url('../assets/img/photos/6.jpg');
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white !important;
+  text-shadow: 2px 2px 5px #000 !important;
+}
+
+.text-image-5 {
+  background-image: url('../assets/img/photos/4.jpg');
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
