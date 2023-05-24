@@ -10,7 +10,7 @@ function Contact() {
     return (
         <div>
             <section className="page-section" id="contact">
-                <div className="container text-padding-top-s">
+                <div className="container">
                     {/* <div className="text-center">
                     <h2 className="section-heading text-uppercase">Contact Us</h2>
                     <h3 className="section-subheading text-muted">We value talking to you and understanding your insurance needs.</h3>
@@ -19,11 +19,14 @@ function Contact() {
                 <div className="text-center">
                     <h2 className="section-heading text-uppercase">Contact Us</h2>
                     <h3 className="section-subheading text-width-m">We value talking to you and understanding your insurance needs.</h3>
-                    <button className="btn btn-secondary btn-xl text-uppercase" id="anchorButton"
+                    
+                </div>
+                </div>
+                <div className="text-center text-padding-top">
+                <button className="btn btn-primary btn-xl text-uppercase" id="anchorButton"
                         onClick={() => {
                             divRef.current.scrollIntoView({behavior: 'smooth'})
                         }}>Contact Form</button>
-                </div>
                 </div>
                 <section className="page-section bg-light" id="team">
                 <div className="container">
@@ -70,7 +73,12 @@ function Contact() {
 
                     </div>
                     <div className="row">
-                    <div className="col-lg-8 mx-auto text-center"><p className="large text-muted">Feel free to reach out to us using the contact form or with the information above.</p></div>
+                    <div className="col-lg-8 mx-auto text-center"><p className="large text-muted">Feel free to reach out to us using the 
+                    <span className="clickable" id="anchorButton"
+                        onClick={() => {
+                            divRef.current.scrollIntoView({behavior: 'smooth'})
+                        }}> contact form </span>
+                     or with the information above.</p></div>
                     </div>
                 </div>
             </section>

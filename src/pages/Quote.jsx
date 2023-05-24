@@ -9,7 +9,7 @@ function Quote() {
     return (
         <div>
             <section className="page-section" id="contact">
-                <div className="container text-padding-top-s">
+                <div className="container">
                     {/* <div className="text-center">
                     <h2 className="section-heading text-uppercase">Request a Quote</h2>
                     <h3 className="section-subheading text-muted">We can provide you a quote through whichever means you prefer. You can give us a call, send an email, visit our office, or use the form below.</h3>

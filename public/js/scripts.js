@@ -15,10 +15,14 @@ window.addEventListener('DOMContentLoaded', event => {
         if (!navbarCollapsible) {
             return;
         }
-        if (window.scrollY === 0) {
-            navbarCollapsible.classList.remove('navbar-shrink')
-        } else {
-            navbarCollapsible.classList.add('navbar-shrink')
+        if (window.scrollY <= 270) {
+            navbarCollapsible.classList.remove('navbar-shrink');
+            navbarCollapsible.classList.remove('position-fixed');
+            navbarCollapsible.classList.add('position-relative');
+        } else if (window.scrollY > 270) {
+            navbarCollapsible.classList.add('navbar-shrink');
+            navbarCollapsible.classList.add('position-fixed');
+            navbarCollapsible.classList.remove('position-relative')
         }
 
     };
@@ -51,32 +55,44 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
+    //Set collapsible navbar to fixed when toggler is visible
+    // const navToggler = document.body.querySelector('.navbar-toggler');
+    // const navCollapsible = document.body.querySelector('#mainNav');
+    // if (navToggler) {
+    //     navCollapsible.classList.remove('position-relative');
+    // };
+
 });
 
-window.addEventListener('DOMContentLoaded', event => {
+// window.addEventListener('DOMContentLoaded', event => {
 
-    // Header shrink function
-    var headerShrink = function () {
-        const headerCollapsible = document.body.querySelector('#mainHeader');
-        if (!headerCollapsible) {
-            return;
-        }
-        if (window.scrollY === 0) {
-            headerCollapsible.classList.remove('header-shrink')
-        } else {
-            headerCollapsible.classList.add('header-shrink')
-        }
-    };
-    // Shrink the header 
-    headerShrink();
-    // Shrink the header when page is scrolled
-    document.addEventListener('scroll', headerShrink);
-    //  Activate Bootstrap scrollspy on the main nav element
-    const mainHeader = document.body.querySelector('#mainHeader');
-    if (mainHeader) {
-        new bootstrap.ScrollSpy(document.body, {
-            target: '#mainHeader',
-            rootMargin: '0px 0px -40%',
-        });
-    };
-});
+//     // Header shrink function
+//     var headerShrink = function () {
+//         const headerCollapsible = document.body.querySelector('#mainHeader');
+//         if (!headerCollapsible) {
+//             return;
+//         }
+//         // if (window.scrollY === 0) {
+//         //     headerCollapsible.classList.remove('header-shrink')
+//         // } else {
+//         //     headerCollapsible.classList.add('header-shrink')
+//         // }
+//         if (window.scrollY <= 260) {
+//             headerCollapsible.classList.remove('navbar-shrink')
+//         } else if (window.scrollY > 260) {
+//             headerCollapsible.classList.add('navbar-shrink')
+//         }
+//     };
+//     // Shrink the header 
+//     headerShrink();
+//     // Shrink the header when page is scrolled
+//     document.addEventListener('scroll', headerShrink);
+//     //  Activate Bootstrap scrollspy on the main nav element
+//     const mainHeader = document.body.querySelector('#mainHeader');
+//     if (mainHeader) {
+//         new bootstrap.ScrollSpy(document.body, {
+//             target: '#mainHeader',
+//             rootMargin: '0px 0px -40%',
+//         });
+//     };
+// });

@@ -9,11 +9,11 @@ function About() {
       }, []);
     return (
         <section className="page-section" id="about">
-            <div className="container text-padding-top-s">
+            <div className="container">
                 <div className="text-image-2 text-padding-top-l">
                 <div className="text-center">
                     <h2 className="section-heading text-uppercase">Helping People for Over 40 Years</h2>
-                    <h3 className="section-subheading text-width-m">We have been providing insurance to individuals, families, and businesses for decades.  We are pleased to be an independent agency, which partners with over a variety of insurance companies.  This has allowed us to shop for our clients and find the best, most affordable policy for them.  It's an easy experience for people and businesses since we do the work in getting a multitude of quotes!</h3>
+                    <h3 className="section-subheading text-width-m">We have been providing insurance to individuals, families, and businesses for decades.  We are pleased to be an independent agency, which partners with a variety of insurance companies.  This has allowed us to shop for our clients and find them the best, most affordable policies.</h3>
                 </div>
                 </div>
                 <ul className="timeline text-padding-top-l">
@@ -56,7 +56,7 @@ function About() {
                     </div>
                 </li>
                 </ul>
-                <div className="text-center text-padding-top"><NavLink to="/contact"><button className="btn btn-secondary btn-xl text-uppercase">Contact Us</button></NavLink></div>
+                <div className="text-center text-padding-top"><NavLink to="/contact"><button className="btn btn-primary btn-xl text-uppercase">Contact Us</button></NavLink></div>
                 <div className="text-center text-uppercase text-padding-top-s">
                         <div>
                             <strong>Phone:</strong> 612-875-1382

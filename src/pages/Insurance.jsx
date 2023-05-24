@@ -10,11 +10,11 @@ function Insurance() {
     return (
         <div>
             <section className="page-section bg-light" id="portfolio">
-            <div className="container text-padding-top-s">
+            <div className="container">
                 <div className="text-image-4 text-padding-top-l">
                 <div className="text-center">
-                    <h2 className="section-heading text-uppercase">Helping People for Over 40 Years</h2>
-                    <h3 className="section-subheading text-width-m">We have been providing insurance to individuals, families, and businesses for decades.  We are pleased to be an independent agency, which partners with over a variety of insurance companies.  This has allowed us to shop for our clients and find the best, most affordable policy for them.  It's an easy experience for people and businesses since we do the work in getting a multitude of quotes!</h3>
+                    <h2 className="section-heading text-uppercase">Insurance Solutions</h2>
+                    <h3 className="section-subheading text-width-m">We offer a full range of insurance products, designed to help you and your family meet your goals. From life insurance to health insurance, auto and property and everything in between, we can build a customized insurance solution meant just for you!</h3>
                 </div>
                 </div>
                 <div className="text-center text-padding-top">
@@ -158,9 +158,9 @@ function Insurance() {
                         <p className="item-intro text-muted">Protect your greatest asset and get home insurance today.</p>
                         <img className="img-fluid d-block mx-auto" src="assets/img/cards/1.webp" alt="..." />
                         <p>We know that providing a safe and secure home for your family very important to our customers.  Making sure that you are covered in case of storm damage or theft is important to us – there’s no room for guess work  in deciding what kind of coverage is going to give you the greatest peace of mind for you and your family.  We have several options available to offer our customers – we’ll put together the best package at the best price for you.</p>
-                        <div className="text-center text-padding-top-s"><NavLink to="/quote"><button className="btn btn-secondary btn-xl text-uppercase"  data-bs-dismiss="modal" type="button">Get a Quote!</button></NavLink></div>
+                        <div className="text-center text-padding-top-s"><NavLink to="/quote"><button className="btn btn-primary btn-xl text-uppercase"  data-bs-dismiss="modal" type="button">Get a Quote!</button></NavLink></div>
                         <div className="text-padding-top-s">
-                        <button className="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                        <button className="btn btn-secondary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                             <i className="fas fa-xmark me-1" />
                             Close
                         </button>
@@ -185,9 +185,9 @@ function Insurance() {
                             <p className="item-intro text-muted">Protect your loved ones and get life insurance today.</p>
                             <img className="img-fluid d-block mx-auto" src="assets/img/cards/2.webp" alt="..." />
                             <p>Life Insurance is the best way to make sure your family is taken care of in the event of your death. It’s a simple statement that most agree with but finding the right life insurance policy is not a simple process!  With so many types of Life Insurance  - Term, Whole, Universal and Variable – you deserve to work with someone who can objectively lay out the options and explain the pros and cons in a way you can understand them. Tree Top Insurance Advisors aren’t specifically incented to recommend any one particular product over another. We help you get the best Life Insurance to meet your unique needs.</p>
-                            <div className="text-center text-padding-top-s"><NavLink to="/quote"><button className="btn btn-secondary btn-xl text-uppercase"  data-bs-dismiss="modal" type="button">Get a Quote!</button></NavLink></div>
+                            <div className="text-center text-padding-top-s"><NavLink to="/quote"><button className="btn btn-primary btn-xl text-uppercase"  data-bs-dismiss="modal" type="button">Get a Quote!</button></NavLink></div>
                             <div className="text-padding-top-s">
-                            <button className="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                            <button className="btn btn-secondary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                 <i className="fas fa-xmark me-1" />
                                 Close
                             </button>
@@ -212,9 +212,9 @@ function Insurance() {
                             <p className="item-intro text-muted">Protect your vehicle and get auto insurance today.</p>
                             <img className="img-fluid d-block mx-auto" src="assets/img/cards/3.webp" alt="..." />
                             <p>Several factors go into determining your monthly premium - Not all auto insurance policies are created equally! As an insurance broker, Tree Top Insurance can offer a policy that is perfect for you and your family by shopping various carrier’s auto insurance products. We aren’t limited to just one standard policy with basic options. If you’ve got an unusual situation, we can find an option that works for you!</p>
-                            <div className="text-center text-padding-top-s"><NavLink to="/quote"><button className="btn btn-secondary btn-xl text-uppercase"  data-bs-dismiss="modal" type="button">Get a Quote!</button></NavLink></div>
+                            <div className="text-center text-padding-top-s"><NavLink to="/quote"><button className="btn btn-primary btn-xl text-uppercase"  data-bs-dismiss="modal" type="button">Get a Quote!</button></NavLink></div>
                             <div className="text-padding-top-s">
-                            <button className="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                            <button className="btn btn-secondary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                 <i className="fas fa-xmark me-1" />
                                 Close
                             </button>
@@ -239,9 +239,9 @@ function Insurance() {
                             <p className="item-intro text-muted">Protect your lvoed ones and get health insurance today.</p>
                             <img className="img-fluid d-block mx-auto" src="assets/img/cards/4.webp" alt="..." />
                             <p>Shopping for health insurance can be overwhelming and frustrating. Comparing different policies with a variety of premiums, coverage limitations, deductibles and copays takes time and focus. At Tree Top Insurance , we start the conversation with your needs and situation, offering only the best options for health insurance to meet your criteria. We’ll do the hard work, so you can focus on what matters most – your family’s health and wellness.</p>
-                            <div className="text-center text-padding-top-s"><NavLink to="/quote"><button className="btn btn-secondary btn-xl text-uppercase"  data-bs-dismiss="modal" type="button">Get a Quote!</button></NavLink></div>
+                            <div className="text-center text-padding-top-s"><NavLink to="/quote"><button className="btn btn-primary btn-xl text-uppercase"  data-bs-dismiss="modal" type="button">Get a Quote!</button></NavLink></div>
                             <div className="text-padding-top-s">
-                            <button className="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                            <button className="btn btn-secondary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                 <i className="fas fa-xmark me-1" />
                                 Close
                             </button>
@@ -266,9 +266,9 @@ function Insurance() {
                             <p className="item-intro text-muted">Protect your health and get coverage today.</p>
                             <img className="img-fluid d-block mx-auto" src="assets/img/cards/5.webp" alt="..." />
                             <p>As an ever-growing segment of our population earns the right to be called "senior," the industry has responded with innovative options to help fill the changing coverage needs of everyone who is turning the page on a new chapter in their life.  From Medium-Gap to Long-Term Care, from Life to Auto for seniors, Tree Top provides expert guidance and planning customized to your particular needs and intentions. As always, our guiding principal is your best outcome!</p>
-                            <div className="text-center text-padding-top-s"><NavLink to="/quote"><button className="btn btn-secondary btn-xl text-uppercase"  data-bs-dismiss="modal" type="button">Get a Quote!</button></NavLink></div>
+                            <div className="text-center text-padding-top-s"><NavLink to="/quote"><button className="btn btn-primary btn-xl text-uppercase"  data-bs-dismiss="modal" type="button">Get a Quote!</button></NavLink></div>
                             <div className="text-padding-top-s">
-                            <button className="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                            <button className="btn btn-secondary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                 <i className="fas fa-xmark me-1" />
                                 Close
                             </button>
@@ -293,9 +293,9 @@ function Insurance() {
                             <p className="item-intro text-muted">Protect your business and get proper insurance today.</p>
                             <img className="img-fluid d-block mx-auto" src="assets/img/cards/7.webp" alt="..." />
                             <p>It’s hard work running a business, and your to-do list is long. The last thing you want to worry about is protecting your company from losses associated with accidents, fraud, and disasters. Let Tree Top Insurance put together a Business Owner’s Policy or Commercial Solution package that meets your protection needs. We work with a variety of carriers for liability, property damage, and business interruption – let us take care of the details so you can focus on your customers, your employees, and your business.</p>
-                            <div className="text-center text-padding-top-s"><NavLink to="/quote"><button className="btn btn-secondary btn-xl text-uppercase"  data-bs-dismiss="modal" type="button">Get a Quote!</button></NavLink></div>
+                            <div className="text-center text-padding-top-s"><NavLink to="/quote"><button className="btn btn-primary btn-xl text-uppercase"  data-bs-dismiss="modal" type="button">Get a Quote!</button></NavLink></div>
                             <div className="text-padding-top-s">
-                            <button className="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                            <button className="btn btn-secondary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                 <i className="fas fa-xmark me-1" />
                                 Close
                             </button>
@@ -320,9 +320,9 @@ function Insurance() {
                             <p className="item-intro text-muted">Protect yourself and get umbrella insurance today.</p>
                             <img className="img-fluid d-block mx-auto" src="assets/img/cards/6.webp" alt="..." />
                             <p>Aren’t you covered by the insurance you already pay for?  Why do I need even more? An Umbrella policy extends the coverage limits that your current policies offer for things like injuries, accidents and damages.  It also covers claims that may not be covered under your other policies, such as false arrest, imprisonment or slander. Let Tree Top Advisors build an insurance package the provides the right levels of coverage for your specific needs.</p>
-                            <div className="text-center text-padding-top-s"><NavLink to="/quote"><button className="btn btn-secondary btn-xl text-uppercase"  data-bs-dismiss="modal" type="button">Get a Quote!</button></NavLink></div>
+                            <div className="text-center text-padding-top-s"><NavLink to="/quote"><button className="btn btn-primary btn-xl text-uppercase"  data-bs-dismiss="modal" type="button">Get a Quote!</button></NavLink></div>
                             <div className="text-padding-top-s">
-                            <button className="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                            <button className="btn btn-secondary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                 <i className="fas fa-xmark me-1" />
                                 Close
                             </button>
@@ -347,9 +347,9 @@ function Insurance() {
                             <p className="item-intro text-muted">Protect your information and get cyber coverage today.</p>
                             <img className="img-fluid d-block mx-auto" src="assets/img/cards/8.webp" alt="..." />
                             <p>Businesses need coverage in the event of both data theft and data loss. But increasingly, individuals are exposed to similar risks. Working from home can blur the line between business and personal liability. And remember, no matter how often you use your computer or phone, your personal data that may be exposed. Tree Top is here to help assess your risk, outline your options, and find the best coverage for you at the best price.</p>
-                            <div className="text-center text-padding-top-s"><NavLink to="/quote"><button className="btn btn-secondary btn-xl text-uppercase"  data-bs-dismiss="modal" type="button">Get a Quote!</button></NavLink></div>
+                            <div className="text-center text-padding-top-s"><NavLink to="/quote"><button className="btn btn-primary btn-xl text-uppercase"  data-bs-dismiss="modal" type="button">Get a Quote!</button></NavLink></div>
                             <div className="text-padding-top-s">
-                            <button className="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                            <button className="btn btn-secondary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                 <i className="fas fa-xmark me-1" />
                                 Close
                             </button>
