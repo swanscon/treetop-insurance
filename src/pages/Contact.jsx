@@ -37,7 +37,7 @@ function Contact() {
                     <div className="row">
                     <div className="col">
                         <div className="team-member">
-                        <img className="mx-auto rounded-circle" src="assets/img/team/sandy.jpg" alt="..." />
+                        <img className="mx-auto rounded-circle" src="assets/img/team/Sandy.jpg" alt="..." />
                         <h4>Sandy Sleck</h4>
                         <p className="text-muted">Owner / Agent</p>
                         <p className="text-muted">With over 40 years of experience in the insurance industry, Sandy Sleck has a passion for helping her clients meet their goals. Owning Tree Top Insurance allows Sandy to provide the best solutions and offer the personal outstanding service to her clients – which is what differentiates her from the rest.</p>
@@ -57,7 +57,7 @@ function Contact() {
                     </div>
                     <div className="col">
                         <div className="team-member">
-                        <img className="mx-auto rounded-circle" src="assets/img/team/ann.jpg" alt="..." />
+                        <img className="mx-auto rounded-circle" src="assets/img/team/Ann.jpg" alt="..." />
                         <h4>Ann Turner</h4>
                         <p className="text-muted">Agent</p>
                         <p className="text-muted">Ann is an amazing upbeat, fun, caring person. After 30 years in healthcare, Ann recently worked very hard to get her insurance license to help people find their best options for healthcare and retirement income and succession planning. Ann is married and a mother of three adult children.</p>
