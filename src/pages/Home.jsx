@@ -22,9 +22,23 @@ function Home() {
                         <NavLink to="/contact"><button className="mx-2 my-2 btn btn-primary btn-xl text-uppercase">Contact Us</button></NavLink>
                     </div>
                 <div className="row text-center justify-content-evenly text-padding-top">
+                    <div className="col-md-4 text-padding-bottom-s">
+                        <img className="img-fluid" src="assets/img/photos/16.jpg" alt="..." />
+                        <h4 className="my-3">Income Products</h4>
+                        <p className="text-muted">You've worked heard towards your retirement. Let's make sure you have an income plan in place to support your retirement goals. With several products available we can help you meet your goals.</p>
+                        <NavLink to="/retirement"><button className="mx-2 my-2 btn btn-secondary btn-xl text-uppercase">Learn More</button></NavLink>
+                    </div>
+                    <div className="col-md-4 text-padding-bottom-s">
+                        <img className="img-fluid" src="assets/img/photos/17.jpg" alt="..." />
+                        <h4 className="my-3">Medicare</h4>
+                        <p className="text-muted">Making good decisions about health care after 65 is important, and you can use all the help you can get. Tree Top Insurance can help you navigate the complexities of  Medicare, Advantage plans and prescription drug plans.</p>
+                        <NavLink to="/medicare"><button className="mx-2 my-2 btn btn-secondary btn-xl text-uppercase">Learn More</button></NavLink>
+                    </div>
+                </div>
+                <div className="row text-center justify-content-evenly text-padding-top">
                 <div className="col-md-4 text-padding-bottom-s">
                     <span className="fa-stack fa-4x">
-                    <i className="fas fa-circle fa-stack-2x text-secondary" />
+                    <i className="fas fa-circle fa-stack-2x text-primary" />
                     <i className="fas fa-user fa-stack-1x fa-inverse" />
                     </span>
                     <h4 className="my-3">Life</h4>
@@ -32,7 +46,7 @@ function Home() {
                 </div>
                 <div className="col-md-4 text-padding-bottom-s">
                     <span className="fa-stack fa-4x">
-                    <i className="fas fa-circle fa-stack-2x text-secondary" />
+                    <i className="fas fa-circle fa-stack-2x text-primary" />
                     <i className="fas fa-house fa-stack-1x fa-inverse" />
                     </span>
                     <h4 className="my-3">Home</h4>
@@ -40,7 +54,7 @@ function Home() {
                 </div>
                 <div className="col-md-4 text-padding-bottom-s">
                     <span className="fa-stack fa-4x">
-                    <i className="fas fa-circle fa-stack-2x text-secondary" />
+                    <i className="fas fa-circle fa-stack-2x text-primary" />
                     <i className="fas fa-car fa-stack-1x fa-inverse" />
                     </span>
                     <h4 className="my-3">Auto</h4>
@@ -48,7 +62,7 @@ function Home() {
                 </div>
                 <div className="col-md-4 text-padding-bottom-s">
                     <span className="fa-stack fa-4x">
-                    <i className="fas fa-circle fa-stack-2x text-secondary" />
+                    <i className="fas fa-circle fa-stack-2x text-primary" />
                     <i className="fas fa-heart fa-stack-1x fa-inverse" />
                     </span>
                     <h4 className="my-3">Health</h4>
@@ -56,7 +70,7 @@ function Home() {
                 </div>
                 <div className="col-md-4 text-padding-bottom-s">
                     <span className="fa-stack fa-4x">
-                    <i className="fas fa-circle fa-stack-2x text-secondary" />
+                    <i className="fas fa-circle fa-stack-2x text-primary" />
                     <i className="fas fa-user fa-stack-1x fa-inverse" />
                     </span>
                     <h4 className="my-3">Senior</h4>
@@ -64,7 +78,7 @@ function Home() {
                 </div>
                 <div className="col-md-4 text-padding-bottom-s">
                     <span className="fa-stack fa-4x">
-                    <i className="fas fa-circle fa-stack-2x text-secondary" />
+                    <i className="fas fa-circle fa-stack-2x text-primary" />
                     <i className="fas fa-umbrella fa-stack-1x fa-inverse" />
                     </span>
                     <h4 className="my-3">Umbrella</h4>
@@ -72,7 +86,7 @@ function Home() {
                 </div>
                 <div className="col-md-4 text-padding-bottom-s">
                     <span className="fa-stack fa-4x">
-                    <i className="fas fa-circle fa-stack-2x text-secondary" />
+                    <i className="fas fa-circle fa-stack-2x text-primary" />
                     <i className="fas fa-file fa-stack-1x fa-inverse" />
                     </span>
                     <h4 className="my-3">Business</h4>
@@ -80,18 +94,16 @@ function Home() {
                 </div>
                 <div className="col-md-4 text-padding-bottom-s">
                     <span className="fa-stack fa-4x">
-                    <i className="fas fa-circle fa-stack-2x text-secondary" />
+                    <i className="fas fa-circle fa-stack-2x text-primary" />
                     <i className="fas fa-computer fa-stack-1x fa-inverse" />
                     </span>
                     <h4 className="my-3">Cyber Insurance</h4>
                     <p className="text-muted">Whether it's coverage for loss or liability for your business, work-related issues when working from home, or personal mitigation against cyber attacks, connecting with the world brings both benefits and risks.  Explore your coverage options...</p>
                 </div>
                 </div>
-                {/* <div className="text-center text-padding-top-s"><NavLink to="/insurance"><button className="btn btn-primary btn-xl text-uppercase">Learn More</button></NavLink></div>
-                <div className="text-center text-padding-top-s"><NavLink to="/contact"><button className="btn btn-primary btn-xl text-uppercase">Contact Us</button></NavLink></div> */}
                 
                 <div className="text-center text-uppercase text-padding-top-s">
-                        <NavLink to="/contact"><button className="mx-2 my-2 btn btn-primary btn-xl text-uppercase">Contact Us</button></NavLink>
+                        <NavLink to="/contact"><button className="mx-2 my-2 btn btn-secondary btn-xl text-uppercase">Contact Us</button></NavLink>
                         <div className="text-padding-top-s">
                             <strong>Phone:</strong> 612-875-1382
                         </div>

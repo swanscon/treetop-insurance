@@ -23,7 +23,7 @@ function About() {
                     <div className="timeline-heading">
                         <h4 className="subheading">Our Mission</h4>
                     </div>
-                    <div className="timeline-body"><p className="text-muted">To help individuals, families, and businesses get the appropriate insurance.</p></div>
+                    <div className="timeline-body"><p className="text-muted">To help individuals, families, and businesses get the appropriate insurance. I am building my business based on references from satisfied clients, so my motivation is 100% to bring value rather than meeting sales goals or product quotas. My philosophy is that, if I do what is right for the client, then I know I’ve done what’s right for Tree Top Insurance. It’s that simple.</p></div>
                     </div>
                 </li>
                 <li className="timeline-inverted">
@@ -32,7 +32,7 @@ function About() {
                     <div className="timeline-heading">
                         <h4 className="subheading">Our History</h4>
                     </div>
-                    <div className="timeline-body"><p className="text-muted">We have been helping communities with a customer-driven model.</p></div>
+                    <div className="timeline-body"><p className="text-muted">We have been helping communities with a customer-driven model. With solid partners and access to quality carriers along with knowing how to take advantage of the best discounts has saved my clients hundreds of dollars per year. I have worked for larger agencies, insurance carriers, and small brokers, and one thing remained constant, I enjoy building and maintaining real relationships with clients.</p></div>
                     </div>
                 </li>
                 <li>
