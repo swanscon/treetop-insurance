@@ -13,8 +13,6 @@ import Insurance from './pages/Insurance';
 import Blog from './pages/Blog';
 import Events from './pages/Events';
 import Contact from './pages/Contact';
-import Retirement from './pages/Retirement';
-import Medicare from './pages/Medicare';
 import Footer from './components/Footer';
 import './App.css';
 
@@ -33,8 +31,6 @@ function App() {
                 <Route path="/blog" element={<Blog/>} />
                 <Route path="/events" element={<Events/>} />
                 <Route path="/contact" element={<Contact/>} /> 
-                <Route path="/retirement" element={<Retirement/>} />
-                <Route path="/medicare" element={<Medicare/>} />
             </Routes>
             <div>
                 <Footer />

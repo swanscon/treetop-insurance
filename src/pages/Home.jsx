@@ -8,6 +8,7 @@ function Home() {
         window.scrollTo(0, 0);
       }, []);
     return (
+        <div>
         <section className="page-section" id="home">
             <div className="container">
                 <div className="text-image-1 text-padding-top-l">
@@ -26,13 +27,17 @@ function Home() {
                         <img className="img-fluid" src="assets/img/photos/16.jpg" alt="..." />
                         <h4 className="my-3">Income Products</h4>
                         <p className="text-muted">You've worked heard towards your retirement. Let's make sure you have an income plan in place to support your retirement goals. With several products available we can help you meet your goals.</p>
-                        <NavLink to="/retirement"><button className="mx-2 my-2 btn btn-secondary btn-xl text-uppercase">Learn More</button></NavLink>
+                        <a className="portfolio-link" data-bs-toggle="modal" href="#homeModal1">
+                            <button className="mx-2 my-2 btn btn-secondary btn-xl text-uppercase">Find Out More</button>
+                        </a>
                     </div>
                     <div className="col-md-4 text-padding-bottom-s">
                         <img className="img-fluid" src="assets/img/photos/17.jpg" alt="..." />
                         <h4 className="my-3">Medicare</h4>
                         <p className="text-muted">Making good decisions about health care after 65 is important, and you can use all the help you can get. Tree Top Insurance can help you navigate the complexities of  Medicare, Advantage plans and prescription drug plans.</p>
-                        <NavLink to="/medicare"><button className="mx-2 my-2 btn btn-secondary btn-xl text-uppercase">Learn More</button></NavLink>
+                        <a className="portfolio-link" data-bs-toggle="modal" href="#homeModal2">
+                            <button className="mx-2 my-2 btn btn-secondary btn-xl text-uppercase">Find Out More</button>
+                        </a>
                     </div>
                 </div>
                 <div className="row text-center justify-content-evenly text-padding-top">
@@ -116,6 +121,96 @@ function Home() {
                 </div>
             </div>
         </section>
+        {/* Modal 1 */}
+        <div className="portfolio-modal modal fade" id="homeModal1" tabIndex={-1} role="dialog" aria-hidden="true">
+            <div className="modal-dialog">
+                <div className="modal-content">
+                <div className="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                <div className="container">
+                    <div className="row justify-content-center">
+                    <div className="col-lg-8">
+                        <div className="modal-body">
+                        {/* Project details*/}
+                        <h2 className="text-uppercase">Income Products</h2>
+                        <p className="item-intro text-muted">We offer a wide variety of insurance and financial solutions that will help ease your concerns about achieving retirement goals.</p>
+                        <img className="img-fluid d-block mx-auto" src="assets/img/photos/16.jpg" alt="..." />
+                        <h4 className="text-uppercase">Your retirement awaits!</h4>
+                        <p>Whether it's 6 months away or 15 years in the future, planning for retirement can be stressful. Tree Top Insurance is here to work with you to create a realistic plan that works for you and your loved ones. Our product offerings are designed for both income and security. </p>
+                        <h4 className="text-uppercase">Income Solutions</h4>
+                        <ul class="list-inline">
+                            <li>
+                                Annuities
+                            </li>
+                            <li>
+                                Whole Life Insurance Policies
+                            </li>
+                            <li>
+                                Long Term Care Insurance
+                            </li>
+                            <li>
+                                Medicare
+                            </li>
+                        </ul>
+                        <div className="text-center text-padding-top-s"><NavLink to="/quote"><button className="btn btn-primary btn-xl text-uppercase"  data-bs-dismiss="modal" type="button">Get a Quote!</button></NavLink></div>
+                        <div className="text-padding-top-s">
+                        <button className="btn btn-secondary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                            <i className="fas fa-xmark me-1" />
+                            Close
+                        </button>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>       
+        {/* Modal 2 */}
+        <div className="portfolio-modal modal fade" id="homeModal2" tabIndex={-1} role="dialog" aria-hidden="true">
+            <div className="modal-dialog">
+                <div className="modal-content">
+                <div className="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                <div className="container">
+                    <div className="row justify-content-center">
+                    <div className="col-lg-8">
+                        <div className="modal-body">
+                        {/* Project details*/}
+                        <h2 className="text-uppercase">Retirement Health Care Planning</h2>
+                        <p className="item-intro text-muted">Making the transition to Medicare Insurance doesn't have to be complicated - but it can be one of the most important decisions you'll have as you near retirement.</p>
+                        <img className="img-fluid d-block mx-auto" src="assets/img/photos/17.jpg" alt="..." />
+                        <h4 className="text-uppercase">Medicare Matters</h4>
+                        <p>You already know how important it is to have the best health care. As you reach the point to transition to Medicare on your 65th birthday, you'll have several options to choose from to meet that goal. We work with clients to answer questions on Medicare, the difference between Advantage and Supplemental Plans, as well.</p>
+                        <h4 className="text-uppercase">Senior Health Care</h4>
+                        <ul class="list-inline">
+                            <li>
+                                Medicare
+                            </li>
+                            <li>
+                                Medicare Health Plans
+                            </li>
+                            <li>
+                                Prescription Drug Coverage
+                            </li>
+                            <li>
+                                Long Term Care Insurance
+                            </li>
+                        </ul>
+                        <div className="text-center text-padding-top-s"><NavLink to="/quote"><button className="btn btn-primary btn-xl text-uppercase"  data-bs-dismiss="modal" type="button">Get a Quote!</button></NavLink></div>
+                        <div className="text-padding-top-s">
+                        <button className="btn btn-secondary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                            <i className="fas fa-xmark me-1" />
+                            Close
+                        </button>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>   
+{/* Closing div */}
+        </div>
 
     )
 }
