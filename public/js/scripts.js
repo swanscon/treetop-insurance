@@ -15,11 +15,11 @@ window.addEventListener('DOMContentLoaded', event => {
         if (!navbarCollapsible) {
             return;
         }
-        if (window.scrollY <= 270) {
+        if (window.scrollY <= 150) {
             navbarCollapsible.classList.remove('navbar-shrink');
             navbarCollapsible.classList.remove('position-fixed');
             navbarCollapsible.classList.add('position-relative');
-        } else if (window.scrollY > 270) {
+        } else if (window.scrollY > 150) {
             navbarCollapsible.classList.add('navbar-shrink');
             navbarCollapsible.classList.add('position-fixed');
             navbarCollapsible.classList.remove('position-relative')

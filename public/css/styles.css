@@ -8021,6 +8021,8 @@ textarea.form-control-lg {
 .text-image-1 {
   background: linear-gradient(to top, #00000099, #00000033), url('../assets/img/photos/1.jpg');
   height: 500px;
+  width: 100%;
+  z-index: 0;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10961,6 +10963,9 @@ p {
 @media (min-width: 768px) {
   section {
     padding: 9rem 0;
+  }
+  .page-section {
+    padding: 3rem 0;
   }
 }
 .btn-xl {

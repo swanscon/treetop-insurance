@@ -10,18 +10,19 @@ function Contact() {
     return (
         <div>
             <section className="page-section" id="contact">
-                <div className="container">
-                    {/* <div className="text-center">
-                    <h2 className="section-heading text-uppercase">Contact Us</h2>
-                    <h3 className="section-subheading text-muted">We value talking to you and understanding your insurance needs.</h3>
-                    </div> */}
-                <div className="text-image-5 text-padding-top-l">
+            <div className="text-image-5 text-padding-top-l">
                 <div className="text-center">
                     <h2 className="section-heading text-uppercase">Contact Us</h2>
                     <h3 className="section-subheading text-width-m">We value talking to you and understanding your insurance needs.</h3>
                     
                 </div>
                 </div>
+                <div className="container">
+                    {/* <div className="text-center">
+                    <h2 className="section-heading text-uppercase">Contact Us</h2>
+                    <h3 className="section-subheading text-muted">We value talking to you and understanding your insurance needs.</h3>
+                    </div> */}
+                
                 <div className="text-center text-padding-top">
                 <button className="btn btn-primary btn-xl text-uppercase" id="anchorButton"
                         onClick={() => {

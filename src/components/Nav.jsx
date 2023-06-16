@@ -16,9 +16,9 @@ function Nav() {
                     <li className="nav-item"><NavLink className="nav-link header-nav" to="/">Home</NavLink></li>
                     <li className="nav-item"><NavLink className="nav-link header-nav" to="/about">About</NavLink></li>
                     <li className="nav-item"><NavLink className="nav-link header-nav" to="/quote">Request a Quote</NavLink></li>
-                    <li className="nav-item"><NavLink className="nav-link header-nav" to="/insurance">Insurance Solutions</NavLink></li>
-                    <li className="nav-item"><NavLink className="nav-link header-nav" to="/blog">Blog</NavLink></li>
-                    <li className="nav-item"><NavLink className="nav-link header-nav" to="/events">Events</NavLink></li>
+                    <li className="nav-item"><NavLink className="nav-link header-nav" to="/">Insurance Solutions</NavLink></li>
+                    {/* <li className="nav-item"><NavLink className="nav-link header-nav" to="/blog">Blog</NavLink></li> */}
+                    <li className="nav-item"><NavLink className="nav-link header-nav" to="/appointment">Book an Appointment</NavLink></li>
                     <li className="nav-item"><NavLink className="nav-link header-nav" to="/contact">Contact</NavLink></li>
                 </ul>
             </div>
