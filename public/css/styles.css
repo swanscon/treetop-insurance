@@ -608,10 +608,27 @@ progress {
   height: auto;
 }
 
+.img-icon-left {
+  max-width: 3rem;
+  min-width: 3rem;
+  height: auto;
+  position: absolute;
+  left: 1rem;
+  top: 0.5rem;
+}
+
+.icon-show {
+  display: unset;
+}
+
+.icon-hide {
+  display: none;
+}
+
 .img-nav {
   max-width: 30%;
   height: auto;
-  border: none !important; 
+  border: none !important;
 }
 
 .img-thumbnail {

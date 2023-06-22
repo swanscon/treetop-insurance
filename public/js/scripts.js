@@ -12,17 +12,22 @@ window.addEventListener('DOMContentLoaded', event => {
     // Navbar shrink function
     var navbarShrink = function () {
         const navbarCollapsible = document.body.querySelector('#mainNav');
+        const iconToggler = document.body.querySelector('#treeLink');
         if (!navbarCollapsible) {
             return;
         }
         if (window.scrollY <= 150) {
             navbarCollapsible.classList.remove('navbar-shrink');
             navbarCollapsible.classList.remove('position-fixed');
+            iconToggler.classList.remove('icon-show');
             navbarCollapsible.classList.add('position-relative');
+            iconToggler.classList.add('icon-hide');
         } else if (window.scrollY > 150) {
             navbarCollapsible.classList.add('navbar-shrink');
             navbarCollapsible.classList.add('position-fixed');
+            iconToggler.classList.add('icon-show');
             navbarCollapsible.classList.remove('position-relative')
+            iconToggler.classList.remove('icon-hide');
         }
 
     };
@@ -41,6 +46,9 @@ window.addEventListener('DOMContentLoaded', event => {
             rootMargin: '0px 0px -40%',
         });
     };
+
+    // Hide navbar icon when toggler is visible
+
 
     // Collapse responsive navbar when toggler is visible
     const navbarToggler = document.body.querySelector('#navbarToggle');

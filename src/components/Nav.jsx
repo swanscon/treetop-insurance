@@ -11,7 +11,9 @@ function Nav() {
             <i className="fas fa-bars ms-1" />
             </button>
             <img className="img-nav navbar-toggler" src="assets/img//logos/treetop.png" alt="..." />
+            <NavLink to="/"><img className="img-icon-left icon-hide" src="assets/img/logos/tree.png" alt="..." id="treeLink"/></NavLink>
             <div className="collapse navbar-collapse" id="navbarResponsive">
+                
                 <ul className="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                     <li className="nav-item"><NavLink className="nav-link header-nav" to="/">Home</NavLink></li>
                     <li className="nav-item"><NavLink className="nav-link header-nav" to="/about">About</NavLink></li>
