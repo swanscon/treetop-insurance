@@ -13,9 +13,13 @@ window.addEventListener('DOMContentLoaded', event => {
     var navbarShrink = function () {
         const navbarCollapsible = document.body.querySelector('#mainNav');
         const iconToggler = document.body.querySelector('#treeLink');
+        const navbarToggler = document.body.querySelector('#navbarToggle');
         if (!navbarCollapsible) {
             return;
         }
+        if (window.getComputedStyle(navbarToggler).display !== 'none') {
+            return;
+        } else {
         if (window.scrollY <= 150) {
             navbarCollapsible.classList.remove('navbar-shrink');
             navbarCollapsible.classList.remove('position-fixed');
@@ -28,7 +32,7 @@ window.addEventListener('DOMContentLoaded', event => {
             iconToggler.classList.add('icon-show');
             navbarCollapsible.classList.remove('position-relative')
             iconToggler.classList.remove('icon-hide');
-        }
+        }};
 
     };
 
