@@ -8,6 +8,14 @@
 // 
 
 window.addEventListener('DOMContentLoaded', event => {
+    // Navbar toggler close function
+    // var navbarClose = function () {
+    //     const navbarToggler = document.body.querySelector('#navbarToggle');
+    //     if (!navbarToggler.classList.contains('collapsed')) {
+    //         navbarToggler.classList.add('collapsed');
+    //     };
+    // };
+
 
     // Navbar shrink function
     var navbarShrink = function () {
