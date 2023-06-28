@@ -1,6 +1,18 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 
+function navbarToggler() {
+    const navbarToggle = document.body.querySelector('#navbarToggle');
+    const navbarResponsive = document.body.querySelector('#navbarResponsive');
+    if (!navbarToggle.hasAttribute('collapsed')) {
+        navbarToggle.classList.add('collapsed');
+        navbarToggle.ariaExpanded = false;
+        navbarResponsive.classList.remove('show');
+    } else {
+        return;
+    }
+};
+
 function Nav() {
     return (
     <nav className="navbar navbar-expand-lg navbar-dark" id="mainNav">
@@ -20,13 +32,13 @@ function Nav() {
             <div className="collapse navbar-collapse" id="navbarResponsive">
                 
                 <ul className="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                    <li className="nav-item"><NavLink className="nav-link header-nav" to="/">Home</NavLink></li>
-                    <li className="nav-item"><NavLink className="nav-link header-nav" to="/about">About</NavLink></li>
-                    <li className="nav-item"><NavLink className="nav-link header-nav" to="/quote">Request a Quote</NavLink></li>
+                    <li className="nav-item"><NavLink className="nav-link header-nav" to="/" onClick={navbarToggler}>Home</NavLink></li>
+                    <li className="nav-item"><NavLink className="nav-link header-nav" to="/about" onClick={navbarToggler}>About</NavLink></li>
+                    <li className="nav-item"><NavLink className="nav-link header-nav" to="/quote" onClick={navbarToggler}>Request a Quote</NavLink></li>
                     {/* <li className="nav-item"><NavLink className="nav-link header-nav" to="/">Insurance Solutions</NavLink></li> */}
                     {/* <li className="nav-item"><NavLink className="nav-link header-nav" to="/blog">Blog</NavLink></li> */}
-                    <li className="nav-item"><NavLink className="nav-link header-nav" to="/appointment">Book an Appointment</NavLink></li>
-                    <li className="nav-item"><NavLink className="nav-link header-nav" to="/contact">Contact</NavLink></li>
+                    <li className="nav-item"><NavLink className="nav-link header-nav" to="/appointment" onClick={navbarToggler}>Book an Appointment</NavLink></li>
+                    <li className="nav-item"><NavLink className="nav-link header-nav" to="/contact" onClick={navbarToggler}>Contact</NavLink></li>
                 </ul>
             </div>
         </div>
