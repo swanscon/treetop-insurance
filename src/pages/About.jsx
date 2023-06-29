@@ -77,7 +77,8 @@ function About() {
                         </div>
                 </div>
                 <div className="py-5">
-                <div className="container text-padding-top">
+                <hr/>
+                <div className="container text-padding-top-s">
                     <div className="text-center">
                     <h2 className="section-heading text-uppercase">Our Partners</h2>
                     </div>

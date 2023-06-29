@@ -111,8 +111,9 @@ function Home() {
                 </div>
                 </div> */}
             <section className="page-section bg-light" id="portfolio">
+            <hr/>
             <div className="container" ref={divRef}>
-                <div className="text-center text-padding-top">
+                <div className="text-center text-padding-top-s">
                 <h3 className="section-heading text-uppercase">Insurance Solutions</h3>
                 <h3 className="section-subheading text-muted">We offer a full range of insurance products, designed to help you and your family meet your goals. From life insurance to health insurance, auto and property and everything in between, we can build a customized insurance solution meant just for you!</h3>
                 </div>
@@ -457,7 +458,7 @@ function Home() {
                 </div>
             </div>
                 <div className="text-center text-uppercase text-padding-top-s">
-                        <NavLink to="/contact"><button className="mx-2 my-2 btn btn-secondary btn-xl text-uppercase">Contact Us</button></NavLink>
+                        <NavLink to="/contact"><button className="mx-2 my-2 btn btn-primary btn-xl text-uppercase">Contact Us</button></NavLink>
                         <div className="text-padding-top-s">
                             <strong>Phone:</strong> 612-875-1382
                         </div>
