@@ -635,7 +635,7 @@ progress {
 }
 
 .img-nav-m {
-  max-width: 18%;
+  max-width: 70px;
   height: auto;
   border: none !important;
   text-decoration: none;
@@ -11000,7 +11000,7 @@ p {
     padding: 9rem 0;
   }
   .page-section {
-    padding: 3rem 0;
+    padding: 0 0;
   }
 }
 .btn-xl {

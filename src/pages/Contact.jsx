@@ -32,7 +32,7 @@ function Contact() {
                 <section className="page-section bg-light" id="team">
                 <div className="container">
                     <div className="text-center">
-                    <h2 className="section-heading text-uppercase">Our Amazing Team</h2>
+                    <h2 className="section-heading text-uppercase text-padding-top-s">Our Amazing Team</h2>
                     <h3 className="section-subheading text-muted">You have unique needs - we take the time to listen and find the best solutions for you. Call soon for an insurance review!</h3>
                     </div>
                     <div className="row">
