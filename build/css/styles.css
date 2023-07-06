@@ -575,6 +575,12 @@ progress {
   margin-right: 0.5rem;
 }
 
+.list-normal {
+  list-style: square;
+  text-align: initial !important;
+  display: inline-block;
+}
+
 .initialism {
   font-size: 0.875em;
   text-transform: uppercase;
@@ -8111,6 +8117,10 @@ textarea.form-control-lg {
 
 .text-padding-top-s {
   padding-top: 2.5rem !important;
+}
+
+.text-padding-top-xs {
+  padding-top: 1rem !important;
 }
 
 .text-padding-top-l {
