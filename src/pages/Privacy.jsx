@@ -1,7 +1,11 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { useEffect } from "react";
 
 function Privacy() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return (
         <section className="page-section bg-light" id="portfolio">
             <div className="container">
