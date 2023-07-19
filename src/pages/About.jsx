@@ -9,10 +9,10 @@ function About() {
       }, []);
     return (
         <section className="page-section" id="about">
-            <div className="text-image-2 text-padding-top-l">
+            <div className="text-banner">
                 <div className="text-center">
                     <h2 className="section-heading text-uppercase">Helping People for Over 40 Years</h2>
-                    <h3 className="section-subheading text-width-m">We have been providing insurance to individuals, families, and businesses for decades.  We are pleased to be an independent agency, which partners with a variety of insurance companies.  This has allowed us to shop for our clients and find them the best, most affordable policies.</h3>
+                    <h3 className="section-subheading text-width-m mobile-hidden">We have been providing insurance to individuals, families, and businesses for decades.  We are pleased to be an independent agency, which partners with a variety of insurance companies.  This has allowed us to shop for our clients and find them the best, most affordable policies.</h3>
                 </div>
                 </div>
             <div className="container">

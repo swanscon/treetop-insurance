@@ -9,10 +9,10 @@ function Events() {
     return (
         <div>
             <section className="page-section" id="appointment">
-            <div className="text-image-4 text-padding-top-l">
+            <div className="text-banner">
                 <div className="text-center">
                     <h2 className="section-heading text-uppercase">Book an Appointment</h2>
-                    <h3 className="section-subheading text-width-m">We can provide help you schedule an appointment to discuss your insurance needs. You can give us a call, send an email, visit our office, or use the form below, and we will get back to you as soon as possible.</h3>
+                    <h3 className="section-subheading text-width-m mobile-hidden">We can provide help you schedule an appointment to discuss your insurance needs. You can give us a call, send an email, visit our office, or use the form below, and we will get back to you as soon as possible.</h3>
                 </div>
                 </div>
                 <div className="container">

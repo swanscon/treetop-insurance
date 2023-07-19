@@ -11,15 +11,19 @@ function Home() {
     return (
         <div>
         <section className="page-section" id="home">
-            <div className="text-image-1 text-padding-top-l">
+            <div className="text-banner">
                 <div className="text-center">
                     <h2 className="section-heading text-uppercase">A FULL SERVICE INSURANCE PROVIDER</h2>
-                    <h3 className="section-subheading text-width-m">As a full service Insurance Provider, Tree Top Insurance provides the insurance products you need. From standard home, health and auto insurance to business, health and long term care insurance, we offer a range of solutions for you at any stage of life. </h3>
-                    
+                    <h3 className="section-subheading text-width-m mobile-hidden">As a full service Insurance Provider, Tree Top Insurance provides the insurance products you need. From standard home, health and auto insurance to business, health and long term care insurance, we offer a range of solutions for you at any stage of life. </h3>
                 </div>
             </div>
+            
             <div className="container">
-                <div className="container-fluid text-center text-padding-top-s">
+                <div className="row text-center text-padding-top-s justify-content-evenly">
+                    <img className="img-thumbnail-sm" src="assets/img/photos/1.jpg" alt="..." />
+                    <h3 className="my-3">Protecting What You've Grown</h3>
+                </div>
+                <div className="container-fluid text-center">
                         <button className="mx-2 my-2 btn btn-primary btn-xl text-uppercase" 
                             onClick={() => {
                                 divRef.current.scrollIntoView({behavior: 'smooth'})
@@ -30,7 +34,7 @@ function Home() {
                     <div className="col-md-4 text-padding-bottom-s">
                         <img className="img-fluid" src="assets/img/photos/16.jpg" alt="..." />
                         <h4 className="my-3">Income Products</h4>
-                        <p className="text-muted">You've worked heard towards your retirement. Let's make sure you have an income plan in place to support your retirement goals. With several products available we can help you meet your goals.</p>
+                        <p className="text-muted">You've worked hard towards your retirement. Let's make sure you have an income plan in place to support your retirement goals. With several products available we can help you meet your goals.</p>
                         <a className="portfolio-link" data-bs-toggle="modal" href="#homeModal1">
                             <button className="mx-2 my-2 btn btn-secondary btn-xl text-uppercase">Find Out More</button>
                         </a>
@@ -130,6 +134,7 @@ function Home() {
                         </div>
                         <img className="img-fluid" src="assets/img/cards/1.webp" alt="..." />
                     </a>
+                    <p className="text-subcaption text-secondary">Click image to learn more.</p>
                     
                     </div>
                 </div>
@@ -145,7 +150,7 @@ function Home() {
                         </div>
                         <img className="img-fluid" src="assets/img/cards/2.webp" alt="..." />
                     </a>
-                    
+                    <p className="text-subcaption text-secondary">Click image to learn more.</p>
                     </div>
                 </div>
                 <div className="col-lg-4 col-sm-6 mb-4">
@@ -160,7 +165,7 @@ function Home() {
                         </div>
                         <img className="img-fluid" src="assets/img/cards/3.webp" alt="..." />
                     </a>
-                    
+                    <p className="text-subcaption text-secondary">Click image to learn more.</p>
                     </div>
                 </div>
                 <div className="col-lg-4 col-sm-6 mb-4">
@@ -175,7 +180,7 @@ function Home() {
                         </div>
                         <img className="img-fluid" src="assets/img/cards/4.webp" alt="..." />
                     </a>
-                    
+                    <p className="text-subcaption text-secondary">Click image to learn more.</p>
                     </div>
                 </div>
                 <div className="col-lg-4 col-sm-6 mb-4">
@@ -190,7 +195,7 @@ function Home() {
                         </div>
                         <img className="img-fluid" src="assets/img/cards/5.webp" alt="..." />
                     </a>
-                    
+                    <p className="text-subcaption text-secondary">Click image to learn more.</p>
                     </div>
                 </div>
                 <div className="col-lg-4 col-sm-6 mb-4">
@@ -205,7 +210,7 @@ function Home() {
                         </div>
                         <img className="img-fluid" src="assets/img/cards/7.webp" alt="..." />
                     </a>
-                    
+                    <p className="text-subcaption text-secondary">Click image to learn more.</p>
                     </div>
                 </div>
                 <div className="col-lg-4 col-sm-6 mb-4">
@@ -220,7 +225,7 @@ function Home() {
                         </div>
                         <img className="img-fluid" src="assets/img/cards/6.webp" alt="..." />
                     </a>
-                    
+                    <p className="text-subcaption text-secondary">Click image to learn more.</p>
                     </div>
                 </div>
                 <div className="col-lg-4 col-sm-6 mb-4 mb-sm-0">
@@ -235,7 +240,7 @@ function Home() {
                         </div>
                         <img className="img-fluid" src="assets/img/cards/8.webp" alt="..." />
                     </a>
-                    
+                    <p className="text-subcaption text-secondary">Click image to learn more.</p>
                     </div>
                 </div>
                 </div>
@@ -253,7 +258,7 @@ function Home() {
                         <h2 className="text-uppercase">Home and Renter's Insurance</h2>
                         <p className="item-intro text-muted">Protect your greatest asset and get home insurance today.</p>
                         <img className="img-fluid d-block mx-auto" src="assets/img/cards/1.webp" alt="..." />
-                        <p>We know that providing a safe and secure home for your family very important to our customers.  Making sure that you are covered in case of storm damage or theft is important to us – there’s no room for guess work  in deciding what kind of coverage is going to give you the greatest peace of mind for you and your family.  We have several options available to offer our customers – we’ll put together the best package at the best price for you.</p>
+                        <p>We know that providing a safe and secure home for your family is very important to our customers.  Making sure that you are covered in case of storm damage or theft is important to us – there’s no room for guess work  in deciding what kind of coverage is going to give you the greatest peace of mind for you and your family.  We have several options available to offer our customers – we’ll put together the best package at the best price for you.</p>
                         <div className="text-center text-padding-top-s"><NavLink to="/quote"><button className="btn btn-primary btn-xl text-uppercase"  data-bs-dismiss="modal" type="button">Get a Quote!</button></NavLink></div>
                         <div className="text-padding-top-s">
                         <button className="btn btn-secondary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
@@ -361,7 +366,7 @@ function Home() {
                             <h2 className="text-uppercase">Senior Coverage</h2>
                             <p className="item-intro text-muted">Protect your health and get coverage today.</p>
                             <img className="img-fluid d-block mx-auto" src="assets/img/cards/5.webp" alt="..." />
-                            <p>As an ever-growing segment of our population earns the right to be called "senior," the industry has responded with innovative options to help fill the changing coverage needs of everyone who is turning the page on a new chapter in their life.  From Medium-Gap to Long-Term Care, from Life to Auto for seniors, Tree Top provides expert guidance and planning customized to your particular needs and intentions. As always, our guiding principal is your best outcome!</p>
+                            <p>As an ever-growing segment of our population earns the right to be called "senior," the industry has responded with innovative options to help fill the changing coverage needs of everyone who is turning the page on a new chapter in their life.  From Medigap to Long-Term Care, from Life to Auto for seniors, Tree Top provides expert guidance and planning customized to your particular needs and intentions. As always, our guiding principal is your best outcome!</p>
                             <div className="text-center text-padding-top-s"><NavLink to="/quote"><button className="btn btn-primary btn-xl text-uppercase"  data-bs-dismiss="modal" type="button">Get a Quote!</button></NavLink></div>
                             <div className="text-padding-top-s">
                             <button className="btn btn-secondary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">

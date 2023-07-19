@@ -10,10 +10,10 @@ function Contact() {
     return (
         <div>
             <section className="page-section" id="contact">
-            <div className="text-image-5 text-padding-top-l">
+            <div className="text-banner">
                 <div className="text-center">
                     <h2 className="section-heading text-uppercase">Contact Us</h2>
-                    <h3 className="section-subheading text-width-m">We value talking to you and understanding your insurance needs.</h3>
+                    <h3 className="section-subheading text-width-m mobile-hidden">We value talking to you and understanding your insurance needs.</h3>
                     
                 </div>
                 </div>
