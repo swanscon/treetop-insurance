@@ -30,6 +30,7 @@ function Nav() {
                 <ul className="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                     <li className="nav-item"><NavLink className="nav-link header-nav" to="/" onClick={navbarToggler}>Home</NavLink></li>
                     <li className="nav-item"><NavLink className="nav-link header-nav" to="/about" onClick={navbarToggler}>About</NavLink></li>
+                    <li className="nav-item"><NavLink className="nav-link header-nav" to="/medicare" onClick={navbarToggler}>Medicare</NavLink></li>
                     <li className="nav-item"><NavLink className="nav-link header-nav" to="/quote" onClick={navbarToggler}>Request a Quote</NavLink></li>
                     {/* <li className="nav-item"><NavLink className="nav-link header-nav" to="/">Insurance Solutions</NavLink></li> */}
                     {/* <li className="nav-item"><NavLink className="nav-link header-nav" to="/blog">Blog</NavLink></li> */}

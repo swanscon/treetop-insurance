@@ -16,6 +16,7 @@ import Contact from './pages/Contact';
 import Footer from './components/Footer';
 import Appointment from './pages/Appointment';
 import Privacy from './pages/Privacy';
+import Medicare from './pages/Medicare';
 import './App.css';
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
                 <Route path="/appointment" element={<Appointment/>} />
                 <Route path="/contact" element={<Contact/>} /> 
                 <Route path="/privacy" element={<Privacy/>}/>
+                <Route path="/medicare" element={<Medicare/>}/>
             </Routes>
             <div>
                 <Footer />

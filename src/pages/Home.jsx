@@ -43,9 +43,9 @@ function Home() {
                         <img className="img-fluid" src="assets/img/photos/17.jpg" alt="..." />
                         <h4 className="my-3">Medicare</h4>
                         <p className="text-muted">Making good decisions about health care after 65 is important, and you can use all the help you can get. Tree Top Insurance can help you navigate the complexities of  Medicare, Advantage plans and prescription drug plans.</p>
-                        <a className="portfolio-link" data-bs-toggle="modal" href="#homeModal2">
-                            <button className="mx-2 my-2 btn btn-secondary btn-xl text-uppercase">Find Out More</button>
-                        </a>
+                        {/* <a className="portfolio-link" data-bs-toggle="modal" href="#homeModal2"> */}
+                            <NavLink to="/medicare"><button className="mx-2 my-2 btn btn-secondary btn-xl text-uppercase">Find Out More</button></NavLink>
+                        {/* </a> */}
                     </div>
                 </div>
                 {/* <div className="row text-center justify-content-evenly text-padding-top">
